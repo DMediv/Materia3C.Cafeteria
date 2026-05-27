@@ -23,7 +23,7 @@ namespace Materia3C.Cafeteria.Cafetria
 
         public override string Preparar()
         {
-            return "preparando un : " + nombre + "helado (con " + cantidadhielo + "cubos de hielo) de tamaño " + tamaño;
+            return "preparando un : " + nombre + "helado (con " + cantidadhielo + " cubos de hielo) de tamaño " + tamaño;
         }
 
 

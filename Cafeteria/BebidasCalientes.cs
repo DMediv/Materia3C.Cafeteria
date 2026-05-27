@@ -26,7 +26,7 @@ namespace Materia3C.Cafeteria.Cafetria
 
         public override string Preparar()
         {
-            return "Preparando un : " + Nombre + " de  tamaño : " + Tamaño + " con temperatura " + Temperatura;
+            return "Preparando un : " + Nombre + " de  tamaño  " + Tamaño + " con temperatura " + Temperatura;
         }
     }
 }
