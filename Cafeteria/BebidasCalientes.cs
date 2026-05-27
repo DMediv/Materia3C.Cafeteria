@@ -13,7 +13,7 @@ namespace Materia3C.Cafeteria.Cafetria
         private float Temperatura;
 
         //propiedades
-        public float tempetarura
+        public float temperatura
         {
             get { return Temperatura; }
             set { Temperatura = value; }
