@@ -16,6 +16,16 @@ namespace Materia3C.Cafeteria.Cafetria
             set {  CantidadHielo = value;}
         }
 
+        public BebidasFrias(string _nombre, string _tamaño, float _precio, float _cantidadhielo) : base(_nombre, _tamaño, _precio)
+        {
+            CantidadHielo = _cantidadhielo;
+        }
+
+        public override string Preparar()
+        {
+            return "preparando un : " + nombre + "helado (con " + cantidadhielo + "cubos de hielo) de tamaño " + tamaño;
+        }
+
 
     }
 }
